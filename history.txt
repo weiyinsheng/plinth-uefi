@@ -1,3 +1,8 @@
+2016/6/15
+1.Build binary UEFI_D0320160615.fd for Redhat;
+2. This build is based on Esatury D03 RC2.3 pretest version code;
+3. THis version code fixed MAC address invalid issue;
+
 2016/6/2
 1. added history.txt to record each UEFI release and feature/ key issue fix compare to previous UEFI;
 2. The initial UEFI has been released, each record will based on the initial version release;
