@@ -1,3 +1,6 @@
+2016/6/29
+1. Added new UEFI release for all test. This new BIOS is based on Estuary pretest3O;
+
 2016/6/2
 1. added history.txt to record each UEFI release and feature/ key issue fix compare to previous UEFI;
 2. The initial UEFI has been released, each record will based on the initial version release;
