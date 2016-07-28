@@ -1,3 +1,7 @@
+2016/7/28
+1.Release new BIOS to support Plinth kernel 4.7 test;
+2. This BIOS is based on Estuary 2.3 RC0; 
+
 2016/6/29
 1. Added new UEFI release for all test. This new BIOS is based on Estuary pretest3O;
 
