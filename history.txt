@@ -1,3 +1,8 @@
+2016/8/24
+1. Rlease new BIOS to support both new D03 board and old D03 board;
+2. Update Several MbiGen ASL code according to ACPI spec requirement;
+3. Please use PCIe_ASPM=off in command line to avoid OS hang;
+
 2016/7/28
 1.Release new BIOS to support Plinth kernel 4.7 test;
 2. This BIOS is based on Estuary 2.3 RC0; 
