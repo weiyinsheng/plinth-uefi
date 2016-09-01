@@ -1,3 +1,8 @@
+2016/9/1
+1. Rlease new D03 BIOS to support Linux 4.7.2/4.8;
+2. Added RoCE ACPI code to support RoCE driver;
+3. Changed OEM Table ID to HIP06 follow internal discussion conclusion;
+
 2016/8/24
 1. Rlease new BIOS to support both new D03 board and old D03 board;
 2. Update Several MbiGen ASL code according to ACPI spec requirement;
