@@ -1,3 +1,11 @@
+2016/9/29
+BIOS release for D05 updated as below:
+1. Added RoCE/numa ACPI code support;
+2. Fixed flag setting error;
+3. Added specific NIC card supporting code;
+4. Update ATF binary to fix system hung when plug memory in 2nd CPU;
+5. fixed EHCI interrupt error issue;
+
 2016/9/1
 1. Rlease new D03 BIOS to support Linux 4.7.2/4.8;
 2. Added RoCE ACPI code to support RoCE driver;
