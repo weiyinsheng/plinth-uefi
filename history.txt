@@ -1,8 +1,3 @@
-2016/9/29
-1.Release new D03 BIOS to support Plinth V200 4.8 driver devlopment;
-2.Fixed EHCI interrupt error issue;
-3.Added SAS Refclk clock requirement in DT;
-
 2016/9/1
 1. Rlease new D03 BIOS to support Linux 4.7.2/4.8;
 2. Added RoCE ACPI code to support RoCE driver;
