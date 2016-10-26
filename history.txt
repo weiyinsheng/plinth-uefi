@@ -1,3 +1,15 @@
+2016/10/26
+Update D03/D05 UEFI binary to support Plinth D03/D05 4.9 driver development.
+D0320161026.fd BIOS updated as below:
+1.Fixed full memory slot (8 DIMM) caused enter OS failure issue;
+2.Changed the single mapping flags of Mbigen node to 1;
+3.Correct USB interrupt to fix USB slowly issue;
+
+D0520161026.fd BIOS updated as below:
+1.Fixed numa work abnormal issue;
+2.Added PCIe PNP0C02 as subdevice of PNP0A03 for storing rc base addresses;
+3.Fixed RTC runtime service work abnormally issue; 
+
 2016/09/29
 Update D03/D05 UEFI binary to support Plinth D03/D05 4.8 driver development.
 D03 UEFI added features as below:
