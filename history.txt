@@ -1,3 +1,17 @@
+2016/12/26
+Update D03/D05 UEFI binary to support D03/D05 4.10 driver development.
+D0320161226.fd BIOS updated as below:
+1. Sync BIOS code base with RP 1612 BIOS code;
+2. Fixed SAS interrupt error;
+3. Update PCIe ACPI code;
+
+D0520161226.fd BIOS updated as below: 
+1. Sync BIOS code base to RP 16.12 BIOS code;
+2. Fixed SAS interrupt error;
+3. Added CPLD to get SFP status;
+4. Remove Eth2/Eth3/Eth6/Eth7 in DSDT table;
+5. Update SLIT table according 1616 estimate latency data;
+
 2016/10/26
 Update D03/D05 UEFI binary to support Plinth D03/D05 4.9 driver development.
 D0320161026.fd BIOS updated as below:
