@@ -1,3 +1,25 @@
+2017/1/25
+Update D03/D05 UEFI binary to support D03/D05 4.10 IT6 driver development.
+UEFI_D0320170124.fd changed as below:
+1. PCIe ACPI code update to fix PCIe ACPI code 4.9/4.10 compatibility issue;
+2. Fixed UEFI build crashes on D03/D05 board issue;
+3. Fixed Qlogic card link set failure issue;
+4. Fixed install Debian boots to grub rescue mode issue;
+5. Fixed BMC load ISO issue;
+6. Fixed boot PXE failure when select PXE boot from BMC web page issue;
+7. Added LPC ACPI code to support LPC driver;
+8. Fixed I350 enumeration failure issue;
+
+UEFI_D0520170125.fd changed as below:
+1. ACPI code update to fix PCIe ACPI code 4.9/4.10 compatibility issue;
+2. Fixed UEFI build crashes on D03/D05 board issue;
+3. Fixed Qlogic card link set failure issue;
+4. Fixed install Debian boots to grub rescue mode issue;
+5. Fixed BMC load ISO issue;
+6. Fixed boot PXE failure when select PXE boot from BMC web page issue;
+7. Added LPC ACPI code to support LPC driver;
+8. Fixed I350 enumeration failure issue;
+
 2016/12/26
 Update D03/D05 UEFI binary to support D03/D05 4.10 driver development.
 D0320161226.fd BIOS updated as below:
