@@ -1,3 +1,20 @@
+2017/2/28
+Updated D03/D05 UEFI binary to support D03/D05 4.10.2 IT7 driver development.
+UEFI_D0320170227.fd changed as below:
+1. Added EDAC feature support;
+2. Added L3 Cache and MN perf features;
+3. Fixed PV-1288 issue;
+4. Fixed PV-1323 issue;
+5. Fixed PV-1251 issue;
+6. Added Mbigen V8 ASL code;   
+
+UEFI_D0520170227.fd
+1. Added L3 Cache and MN perf features;
+2. Fixed PV-1288 issue;
+3. Fixed PV-1083 issue;
+4. Fixed system exception error when run  CPU online/offline test; 
+5. added Mbigen V8 ASL code;
+
 2017/1/25
 Update D03/D05 UEFI binary to support D03/D05 4.10 IT6 driver development.
 UEFI_D0320170124.fd changed as below:
