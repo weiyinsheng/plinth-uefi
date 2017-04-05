@@ -1,3 +1,24 @@
+2017/4/5
+Update D03/D05 UEFI binary to support D03/D05 4.11 IT8 driver development.
+UEFI_D0320170405.fd changed as below:
+1. Remove iATU limit to support SR-IOV development;
+2. Added aspm=off solution;
+3. Resolve PCIe DMA address conflict issue;
+4. Added Perf DDRC solution;
+5. UEFI support ACPI OS load command in EBL;
+
+UEFI_D0520170405.fd changed as below:
+1. Remove iATU limit to support SR-IOV development;
+2. Added SMMU node in the IORT table;
+3. Added power button solution;
+4. added aspm=off solution;
+5. Resolve DMA address conflict issue;
+6. Added Perf DDRC solution;
+7. added DBG2 table to meet SBSA requirement;
+8. UEFI support ACPI OS load command in EBL;
+9. Fixed 1P PCIe device work abnormal when eanble smmu v3 support;
+10.Added DSD method to ROCE;
+
 2017/2/28
 Updated D03/D05 UEFI binary to support D03/D05 4.10.2 IT7 driver development.
 UEFI_D0320170227.fd changed as below:
