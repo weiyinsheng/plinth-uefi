@@ -1,0 +1,125 @@
+2017/4/13
+Updated D05 UEFI binary to support D05 4.11 IT8 driver development.
+UEFI_D0520170413.fd BIOS is based on IT8 BIOS code and fixed the issue as below:
+1. UEFI EDK2 commist is  b02b12af12e4641c0d0fbbf1ae4ee3d47de97e55
+2. OpenplatformPkg commit is 7a6223a3a9c94096683907e084d666e6d65eca43
+3. Fixed iATU config error which caused PCIe device probe failure;
+4. Updated UEFI version to Nemo 17.04 RC3;
+
+2017/4/5
+Update D03/D05 UEFI binary to support D03/D05 4.11 IT8 driver development.
+UEFI_D0320170405.fd changed as below:
+1. Remove iATU limit to support SR-IOV development;
+2. Added aspm=off solution;
+3. Resolve PCIe DMA address conflict issue;
+4. Added Perf DDRC solution;
+5. UEFI support ACPI OS load command in EBL;
+
+UEFI_D0520170405.fd changed as below:
+1. Remove iATU limit to support SR-IOV development;
+2. Added SMMU node in the IORT table;
+3. Added power button solution;
+4. added aspm=off solution;
+5. Resolve DMA address conflict issue;
+6. Added Perf DDRC solution;
+7. added DBG2 table to meet SBSA requirement;
+8. UEFI support ACPI OS load command in EBL;
+9. Fixed 1P PCIe device work abnormal when eanble smmu v3 support;
+10.Added DSD method to ROCE;
+
+2017/2/28
+Updated D03/D05 UEFI binary to support D03/D05 4.10.2 IT7 driver development.
+UEFI_D0320170227.fd changed as below:
+1. Added EDAC feature support;
+2. Added L3 Cache and MN perf features;
+3. Fixed PV-1288 issue;
+4. Fixed PV-1323 issue;
+5. Fixed PV-1251 issue;
+6. Added Mbigen V8 ASL code;   
+
+UEFI_D0520170227.fd
+1. Added L3 Cache and MN perf features;
+2. Fixed PV-1288 issue;
+3. Fixed PV-1083 issue;
+4. Fixed system exception error when run  CPU online/offline test; 
+5. added Mbigen V8 ASL code;
+
+2017/1/25
+Update D03/D05 UEFI binary to support D03/D05 4.10 IT6 driver development.
+UEFI_D0320170124.fd changed as below:
+1. PCIe ACPI code update to fix PCIe ACPI code 4.9/4.10 compatibility issue;
+2. Fixed UEFI build crashes on D03/D05 board issue;
+3. Fixed Qlogic card link set failure issue;
+4. Fixed install Debian boots to grub rescue mode issue;
+5. Fixed BMC load ISO issue;
+6. Fixed boot PXE failure when select PXE boot from BMC web page issue;
+7. Added LPC ACPI code to support LPC driver;
+8. Fixed I350 enumeration failure issue;
+
+UEFI_D0520170125.fd changed as below:
+1. ACPI code update to fix PCIe ACPI code 4.9/4.10 compatibility issue;
+2. Fixed UEFI build crashes on D03/D05 board issue;
+3. Fixed Qlogic card link set failure issue;
+4. Fixed install Debian boots to grub rescue mode issue;
+5. Fixed BMC load ISO issue;
+6. Fixed boot PXE failure when select PXE boot from BMC web page issue;
+7. Added LPC ACPI code to support LPC driver;
+8. Fixed I350 enumeration failure issue;
+
+2016/12/26
+Update D03/D05 UEFI binary to support D03/D05 4.10 driver development.
+D0320161226.fd BIOS updated as below:
+1. Sync BIOS code base with RP 1612 BIOS code;
+2. Fixed SAS interrupt error;
+3. Update PCIe ACPI code;
+
+D0520161226.fd BIOS updated as below: 
+1. Sync BIOS code base to RP 16.12 BIOS code;
+2. Fixed SAS interrupt error;
+3. Added CPLD to get SFP status;
+4. Remove Eth2/Eth3/Eth6/Eth7 in DSDT table;
+5. Update SLIT table according 1616 estimate latency data;
+
+2016/10/26
+Update D03/D05 UEFI binary to support Plinth D03/D05 4.9 driver development.
+D0320161026.fd BIOS updated as below:
+1.Fixed full memory slot (8 DIMM) caused enter OS failure issue;
+2.Changed the single mapping flags of Mbigen node to 1;
+3.Correct USB interrupt to fix USB slowly issue;
+
+D0520161026.fd BIOS updated as below:
+1.Fixed numa work abnormal issue;
+2.Added PCIe PNP0C02 as subdevice of PNP0A03 for storing rc base addresses;
+3.Fixed RTC runtime service work abnormally issue; 
+
+2016/09/29
+Update D03/D05 UEFI binary to support Plinth D03/D05 4.8 driver development.
+D03 UEFI added features as below:
+1.update Refclk in DT to support SAS driver get correct system clock;
+
+D05 UEFI added features as below:
+1. Added RoCE/numa ACPI support;
+2. Fixed flag setting error;
+3.Added specific NIC card supporting code;
+4. Update ATF binary to fix system hung when insert memory in 2nd CPU;
+5. Fix EHCI interrupt issue;
+
+Known issue:
+NUMA feature not complete test, need do more test to check the features.
+
+2016/8/24
+1. Rlease new BIOS to support both new D03 board and old D03 board;
+2. Update Several MbiGen ASL code according to ACPI spec requirement;
+3. Please use PCIe_ASPM=off in command line to avoid OS hang;
+
+2016/7/28
+1.Release new BIOS to support Plinth kernel 4.7 test;
+2. This BIOS is based on Estuary 2.3 RC0; 
+
+2016/6/29
+1. Added new UEFI release for all test. This new BIOS is based on Estuary pretest3O;
+
+2016/6/2
+1. added history.txt to record each UEFI release and feature/ key issue fix compare to previous UEFI;
+2. The initial UEFI has been released, each record will based on the initial version release;
+
